@@ -1,0 +1,100 @@
+.class_name_header {
+	background-color: #D8D8D8;
+    height: 40px;
+    border: 1px solid #DDDDDD;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-weight: bold;
+    line-height: 38px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.icon-collapse-custom {
+	margin-right: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+	cursor: pointer;
+}
+
+.icon-collapse-custom:hover {
+	color: #78A1F1;
+}
+
+.search_box {
+	width: 400px;
+    height: 30px !important;
+}
+
+.control_container {
+	display: inline-flex;
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+	margin-right: 10px;
+}
+
+.control_container button {
+	height: 30px;
+}
+
+.current_object_box {
+	width: 50px;
+    height: 30px !important;
+}
+
+.class_name_container {
+	margin-left: 10px;
+}
+
+.exclude_margin {
+	margin: 0px !important;
+}
+
+.arrows_container {
+	display: inline-block;
+    float: right;
+    height: 100%;
+}
+
+.control_container label, .control_container button {
+	font-weight: bold;
+}
+
+.value_header {
+	width: 200px;
+}
+
+.type_header {
+	width: 120px;
+}
+
+.edit-in-place span {
+  cursor: pointer;
+}
+
+.edit-in-place input {
+  display: none;
+}
+
+.edit-in-place.active span {
+  display: none;
+}
+
+.edit-in-place.active input {
+  display: inline-block;
+}
+
+.object_index_width {	
+    text-align: right;
+    display: block;
+}
+
+.cell_input {
+	width: 100% !important;	
+}
+
+.table-hover tbody tr:hover td {
+	background-color: #b2b2b2 !important;
+}     
